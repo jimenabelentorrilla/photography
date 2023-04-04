@@ -4,7 +4,9 @@ import SectionTwo from './components/SectionTwo';
 import ImageOne from "./assets/Image-one.jpg";
 import ImageTwo from "./assets/Image-two.jpg";
 import ImageThree from "./assets/Image-three.jpg";
-
+import SectionThree from './components/SectionThree';
+import SectionFour from './components/SectionFour';
+import SectionFive from './components/SectionFive';
 
 function App() {
   return (
@@ -34,25 +36,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='section-bg'>
-        <div className='container-three'>
-          <div className='column-three'>
-            <div className='content-three'>
-              <div className='section-title-three'>
-                <span>March 2022</span>
-                <div className='content-text-thr'>
-                  <h3>Gabriela Silva</h3>
-                  <p>Cras semper auctor neque vitae tempus. Neque volutpat ac tincidunt vitae. Eros donec ac odio tempor orci dapibus ultrices. Eget mauris pharetra et ultrices neque ornare. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Nunc id cursus metus aliquam eleifend mi.</p>
-                  <div className='actions-three'>
-                    <button>View case study</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
     </div>
   )
 };

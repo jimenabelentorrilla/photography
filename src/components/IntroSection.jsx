@@ -4,7 +4,6 @@ import Round from "../assets/Round Button.png";
 import Image from "../assets/Image.png";
 
 function IntroSection() {
-
   return (
     <div className='intro-section'>
         <div className='navbar-logo-left'>
@@ -49,7 +48,7 @@ function IntroSection() {
                 </div>
               </div>
               <div className='column-two'>
-                <div className='image-wrapper'>
+                <div className='image-wrapper-one'>
                   <img src={Image}/>
                 </div>
               </div>

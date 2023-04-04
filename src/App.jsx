@@ -5,10 +5,11 @@ import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
 import SectionFive from './components/SectionFive';
 import SectionSix from './components/SectionSix';
-
+import SectionSeven from './components/SectionSeven';
 import ImageOne from "./assets/Image-one.jpg";
 import ImageTwo from "./assets/Image-two.jpg";
 import ImageThree from "./assets/Image-three.jpg";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
       <SectionFour />
       <SectionFive />
       <SectionSix />
+      <SectionSeven />
+      <Footer />
     </div>
   )
 };

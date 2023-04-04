@@ -83,6 +83,9 @@
     align-items: flex-start;
     padding: 24px 12px;
 }
+.navbar-link span{
+    cursor: pointer;
+}
 
 .navbar-button {
     box-sizing: border-box;
@@ -104,6 +107,7 @@
     text-align: center;
     color: #FC4308;
     background-color: transparent;
+    cursor:pointer;
 }
 
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from "../assets/Logo.png";
 import Round from "../assets/Round Button.png";
 import Image from "../assets/Image.png";
+import "../estilos/IntroSection.css";
 
 function IntroSection() {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../estilos/SectionTwo.css";
 
 function SectionTwo({ image, year, name }) {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgSectionFive from "../assets/section5.png";
-
+import "../estilos/SectionFive.css";
 function SectionFive() {
 return (
     <div className='section-bg'>
